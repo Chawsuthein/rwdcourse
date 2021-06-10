@@ -1,3 +1,4 @@
+// if statement
 var fruit;
 var price = 1500 ;
 if(price < 2000) {
@@ -6,3 +7,19 @@ if(price < 2000) {
 else {
         fruits = 'Apple';
      }
+
+// Switch statement
+Let price = 3000; 
+switch(price) {
+        case '1000':
+        alert ('Apple');
+        break;
+        case '2000':
+        alert ('Orange');
+        break;
+        case '3000':
+        alert ('Durian');
+        break;
+        default;
+        alert ("There is no fruits above 3000 kyats.")
+        
